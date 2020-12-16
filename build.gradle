@@ -16,8 +16,27 @@ dependencies {
     compile group: 'io.appium', name: 'java-client', version: '7.4.1'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 
-// https://mvnrepository.com/artifact/com.github.javafaker/javafaker
-    compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+    //Cucumber
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.9.0'
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '6.9.0'
 
 
+}
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+
+// gradle cucumberTest -Psuite=@Contact
+task cucumberTest{
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'json:build/reports/cucumber/report.json', '--glue', 'runner', 'src/test/resources','--tags']+[suite]
+        }
+    }
 }
