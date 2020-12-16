@@ -11,9 +11,9 @@ Feature:  When Do
     And Visualizar las tareas creadas
     Then la tarea  <titulo> debe estar en pantalla
     Examples:
-      | titulo   | descripcion |
-      |   jb01   |  pw01    |
-      |   jb02   |  pw02    |
-      |   jb03   |  pw03    |
-      |   jb04   |  pw04    |
-      |   jb05   |  pw05    |
+      |   titulo     |                descripcion                                   |
+      |   Tarea 01   |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.    |
+      |   Tarea 02   |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.    |
+      |   Tarea 03   |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.    |
+      |   Tarea 04   |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.    |
+      |   Tarea 05   |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.    |

@@ -99,11 +99,11 @@ public class MyStepCreateTarea {
 
     @Then("la tarea {} debe estar en pantalla")
     public void laTareaTituloDebeEstarEnPantalla(String valor) {
-        if(nombresListadoTareas.contains(valor)){
+        if(nombresListadoTareas.contains(valor.trim())){
             enct=true;
         }
 
-        Assert.assertTrue("!!!No se encontro la tarea "+nameTarea,enct);
+        Assert.assertTrue("!!!No se encontro la tarea "+valor,enct);
     }
 
     private Boolean igualLista(List<String> list1 ,List<String> list2){
