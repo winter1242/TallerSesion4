@@ -12,19 +12,28 @@ repositories {
 dependencies {
     // Motor Test
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
     // Movile -- APPIUM
     compile group: 'io.appium', name: 'java-client', version: '7.4.1'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 
-    //Cucumber
+    // Cucumber
     compile group: 'io.cucumber', name: 'cucumber-java', version: '6.9.0'
     testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '6.9.0'
 
-
+    // Reporte Cucumber
+    compile group: 'net.masterthought', name: 'cucumber-reporting', version: '5.4.0'
 }
+
 configurations {
     cucumberRuntime {
         extendsFrom testImplementation
+    }
+}
+
+configurations {
+    junitRuntime {
+        extendsFrom testRuntime
     }
 }
 
@@ -37,6 +46,16 @@ task cucumberTest{
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = ['--plugin', 'json:build/reports/cucumber/report.json', '--glue', 'runner', 'src/test/resources','--tags']+[suite]
+        }
+    }
+}
+
+task generateReport{
+    dependsOn classes, compileTestJava
+    doLast {
+        javaexec {
+            main = "localReport.RunnerGradle"
+            classpath = configurations.junitRuntime + sourceSets.main.output + sourceSets.test.output
         }
     }
 }
