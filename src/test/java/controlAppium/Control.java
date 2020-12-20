@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import session.Session;
 
 import java.net.MalformedURLException;
+import java.util.List;
 
 public class Control {
     protected WebElement control;
@@ -18,6 +19,8 @@ public class Control {
         this.control = Session.getInstance().getDriver().findElement(this.locator);
     }
 
+
+
     public void click() throws MalformedURLException {
         this.find();
         this.control.click();
@@ -26,6 +29,11 @@ public class Control {
     public void type(String value) throws MalformedURLException {
         this.find();
         this.control.sendKeys(value);
+
+    }
+    public List<WebElement> listElement() throws MalformedURLException {
+
+        return Session.getInstance().getDriver().findElements(this.locator);
 
     }
 

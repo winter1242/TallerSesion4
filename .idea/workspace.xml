@@ -22,11 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambio al Runner">
+    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambios Local">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/activities/WhenDo/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/WhenDo/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlAppium/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlAppium/Control.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/MyStepCreateTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/MyStepCreateTarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/createTareas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/createTareas.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608436165140</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Cambios Local">
+      <created>1608438290871</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608438290871</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Cambios Local">
+      <created>1608438316270</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608438316270</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +338,8 @@
     <MESSAGE value="Cambio 4" />
     <MESSAGE value="FormTarea agregado" />
     <MESSAGE value="Cambio al Runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio al Runner" />
+    <MESSAGE value="Cambios Local" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios Local" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608085998970">
@@ -356,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="243" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608088179688" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608436166880">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608438320484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608436166880" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608438320484" />
     <state x="585" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608436181179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

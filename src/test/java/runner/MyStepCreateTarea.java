@@ -55,7 +55,11 @@ public class MyStepCreateTarea {
     }
 
     @Then("la tarea {} debe estar en pantalla")
-    public void laTareaTituloDebeEstarEnPantalla(String valor) {
+    public void laTareaTituloDebeEstarEnPantalla(String valor) throws MalformedURLException {
+        List<WebElement> list=mainScreen.nameTarea.listElement();
+        if(list.contains(valor.trim())){
+            enct=true;
+        }
         Assert.assertTrue("!!!No se encontro la tarea "+valor,enct);
     }
 
