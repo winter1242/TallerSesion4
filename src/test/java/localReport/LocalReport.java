@@ -9,7 +9,7 @@ import java.util.List;
 
 public class LocalReport {
     public static void main(String []args){
-        String path="D:\\ArchivoIntelliJ\\TallerSesion4\\build\\reports\\cucumber\\";
+        String path="build/reports/cucumber/";
         File reportHTMLFolder=new File(path+"cucumberReporting");
 
         List<String> jsonFiles=new ArrayList<>();
