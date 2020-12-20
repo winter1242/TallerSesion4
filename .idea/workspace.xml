@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Agregado Gherkins , cucumber y cambiado la tarea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Agregado control appium, factory Device, local report, sesion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608091045519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambio Build Gradle">
+      <created>1608434032416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608434032416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Agregado control appium, factory Device, local report, sesion">
+      <created>1608434229469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608434229469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +255,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gfjhsg" />
     <MESSAGE value="Agregado Gherkins , cucumber y cambiado la tarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado Gherkins , cucumber y cambiado la tarea" />
+    <MESSAGE value="Cambio Build Gradle" />
+    <MESSAGE value="Agregado control appium, factory Device, local report, sesion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado control appium, factory Device, local report, sesion" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608085998970">
