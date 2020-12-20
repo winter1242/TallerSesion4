@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambio 4">
+      <change beforePath="$PROJECT_DIR$/src/test/java/activities/WhenDo/FormTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/WhenDo/FormTarea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +253,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608434619877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cambio 2">
+      <created>1608434940660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608434940660</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cambio 3">
+      <created>1608435043983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435043983</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cambio 4">
+      <created>1608435115375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435115375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cambio 4">
+      <created>1608435195998</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435195998</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +303,10 @@
     <MESSAGE value="Agregado control appium, factory Device, local report, sesion" />
     <MESSAGE value="Carpetas cleanTest, activities" />
     <MESSAGE value="Cambio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio" />
+    <MESSAGE value="Cambio 2" />
+    <MESSAGE value="Cambio 3" />
+    <MESSAGE value="Cambio 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608085998970">
@@ -306,10 +337,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="243" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608088179688" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608434949611">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608435197208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608434949611" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608435197208" />
+    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608435207652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608435207652" />
     <state x="0" y="133" key="new project wizard" timestamp="1608085853871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
