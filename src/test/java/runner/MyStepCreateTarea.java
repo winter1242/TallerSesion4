@@ -21,7 +21,6 @@ public class MyStepCreateTarea {
     private Boolean enct=false;
     private List<String> nombresListadoTareas = new ArrayList<String>();
 
-
     @Given("la aplicacion when do esta abierta")
     public void laAplicacionWhenDoEstaAbierta() {
         // implicit wait  (tiempo para todos los controles)
@@ -36,7 +35,7 @@ public class MyStepCreateTarea {
 
     @And("Ingresar a la caja de texto titulo de la tarea : {}")
     public void ingresarALaCajaDeTextoDelNombreDeLaTareaTitulo(String valor) {
-         Runner.driver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextTitle")).sendKeys(valor);
+        Runner.driver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextTitle")).sendKeys(valor);
     }
     @And("Ingresar a la caja de texto descripcion de la tarea : {}")
     public void ingresarALaCajaDeTextoDeDescripcionDeLaTareaTitulo(String valor) {
