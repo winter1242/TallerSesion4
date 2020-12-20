@@ -8,7 +8,6 @@ Feature:  When Do
     And Ingresar a la caja de texto titulo de la tarea : <titulo>
     And Ingresar a la caja de texto descripcion de la tarea : <descripcion>
     And Clic en [GuardarTarea]
-    And Visualizar las tareas creadas
     Then la tarea  <titulo> debe estar en pantalla
     Examples:
       |   titulo     |                descripcion                                   |
