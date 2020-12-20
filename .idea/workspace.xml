@@ -22,11 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambio al Runner">
+    <list default="true" id="1289b1ad-9d63-418d-8e9a-370301b0d5cf" name="Default Changelist" comment="Cambio 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/activities/WhenDo/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/WhenDo/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/runner/MyStepCreateTarea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/createTareas.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/activities/WhenDo/FormTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/WhenDo/FormTarea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/MyStepCreateTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/MyStepCreateTarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/createTareas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/createTareas.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <command value="gradle clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: crear tarea">
+  <component name="RunManager" selected="Gradle.TallerSesion4 [clean]">
     <configuration name="Feature: createTareas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/createTareas.feature" />
@@ -147,7 +152,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Taller2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -166,35 +173,46 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Taller2.tallerApp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TallerSesion4 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;Taller2.tallerApp&quot;" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="clean" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: createTareas" />
+      <item itemvalue="Cucumber Java.Scenario: crear tarea" />
+      <item itemvalue="Gradle.Runner.beforeScenario" />
+      <item itemvalue="Gradle.Taller2" />
+      <item itemvalue="Gradle.TallerSesion4 [clean]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TallerSesion4 [clean]" />
         <item itemvalue="Cucumber Java.Scenario: crear tarea" />
         <item itemvalue="Gradle.Runner.beforeScenario" />
         <item itemvalue="Cucumber Java.Feature: createTareas" />
         <item itemvalue="Gradle.Taller2" />
-        <item itemvalue="Gradle.Taller2.tallerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -291,14 +309,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608435446642</updated>
     </task>
-    <task id="LOCAL-00013" summary="Cambio al Runner">
-      <created>1608436165140</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608436165140</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,53 +335,6 @@
     <MESSAGE value="Cambio 3" />
     <MESSAGE value="Cambio 4" />
     <MESSAGE value="FormTarea agregado" />
-    <MESSAGE value="Cambio al Runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio al Runner" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="263" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608085998970">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="263" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1608085998970" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1608087734582">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608087734582" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608091243110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608091243110" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608091243110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608091243110" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608091243110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608091243110" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608091243110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608091243110" />
-    <state x="243" y="225" key="RollbackChangesDialog" timestamp="1608088179688">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="243" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608088179688" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608436166880">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608436166880" />
-    <state x="585" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608436181179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="585" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608436181179" />
-    <state x="0" y="133" key="new project wizard" timestamp="1608085853871">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1608085853871" />
-    <state x="296" y="454" width="535" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1608087735728">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="296" y="454" width="535" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608087735728" />
+    <option name="LAST_COMMIT_MESSAGE" value="FormTarea agregado" />
   </component>
 </project>

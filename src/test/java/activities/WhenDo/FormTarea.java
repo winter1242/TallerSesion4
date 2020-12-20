@@ -2,8 +2,6 @@ package activities.WhenDo;
 
 import controlAppium.Button;
 import controlAppium.TextBox;
-import org.junit.Test;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.By;
 
 public class FormTarea {

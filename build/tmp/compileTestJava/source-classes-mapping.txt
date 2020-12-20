@@ -1,4 +1,0 @@
-runner/Runner.java
- runner.Runner
-runner/MyStepCreateTarea.java
- runner.MyStepCreateTarea
