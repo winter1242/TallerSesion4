@@ -11,22 +11,24 @@ import java.net.URL;
 public class AndroidCloud implements IDevice{
     @Override
     public AppiumDriver create() throws MalformedURLException {
+
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-
+        caps.setCapability("browserstack.user", "Name");
+        caps.setCapability("browserstack.key", "Contraseña");
 
         // Set URL of the application under test
-
+        caps.setCapability("app", "Application");
 
         // Specify device and os_version for testing
-        caps.setCapability("device", "Google Pixel 3");
-        caps.setCapability("os_version", "9.0");
+        caps.setCapability("device", "Samsung Galaxy S20 Ultra");
+        caps.setCapability("os_version", "10.0");
 
         // Set other BrowserStack capabilities
-        caps.setCapability("project", "JB Movile");
-        caps.setCapability("build", "1.0 dic");
-        caps.setCapability("name", "contact manager");
+        caps.setCapability("project", "First Java Project");
+        caps.setCapability("build", "Java Android");
+        caps.setCapability("name", "first_test");
 
 
         // Initialise the remote Webdriver using BrowserStack remote URL

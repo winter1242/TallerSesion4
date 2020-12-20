@@ -13,7 +13,7 @@ public class Session {
     private AppiumDriver driver;
 
     private Session() throws MalformedURLException {
-        this.driver = FactoryDevice.make(FactoryDevice.ANDROID).create();
+        this.driver = FactoryDevice.make(FactoryDevice.BROWSER_STACK).create();
     }
 
     public static Session getInstance() throws MalformedURLException {
