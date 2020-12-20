@@ -3,7 +3,6 @@ package session;
 // 2 construtor debe ser privado
 // 3 tener un metodo public estatico que devuelta una instancia de la clase
 
-
 import factoryDevice.FactoryDevice;
 import io.appium.java_client.AppiumDriver;
 
@@ -29,7 +28,6 @@ public class Session {
         driver.quit();
         mySession = null;
     }
-
     public AppiumDriver getDriver() {
         return driver;
     }

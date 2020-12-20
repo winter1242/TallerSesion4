@@ -1,6 +1,5 @@
 package activities.WhenDo;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import controlAppium.Button;
 import controlAppium.Label;
 import org.openqa.selenium.By;

@@ -1,5 +1,5 @@
+@WhenDo
 Feature:  When Do
-
 
   Scenario Outline: crear tarea
 

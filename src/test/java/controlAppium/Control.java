@@ -19,8 +19,6 @@ public class Control {
         this.control = Session.getInstance().getDriver().findElement(this.locator);
     }
 
-
-
     public void click() throws MalformedURLException {
         this.find();
         this.control.click();

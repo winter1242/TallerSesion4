@@ -11,7 +11,5 @@ public class RunnerGradle {
 
         for (Failure failure: result.getFailures())
             System.out.println("ERROR al generar reporte......."+failure.getMessage());
-
     }
-
 }

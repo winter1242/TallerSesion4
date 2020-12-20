@@ -2,31 +2,20 @@ package runner;
 
 import activities.WhenDo.FormTarea;
 import activities.WhenDo.MainScreen;
-import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfo;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.velocity.runtime.directive.contrib.For;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 
 import java.net.MalformedURLException;
-import java.text.Normalizer;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class MyStepCreateTarea {
     private FormTarea formTarea=new FormTarea();
     private MainScreen mainScreen=new MainScreen();
-
 
     private Boolean enct=false;
     private List<String> nombresListadoTareas = new ArrayList<String>();
@@ -62,6 +51,4 @@ public class MyStepCreateTarea {
         }
         Assert.assertTrue("!!!No se encontro la tarea "+valor,enct);
     }
-
-
 }
