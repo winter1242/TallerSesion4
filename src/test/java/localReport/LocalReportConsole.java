@@ -9,7 +9,7 @@ import java.util.List;
 
 public class LocalReportConsole {
     public static void generateReport(){
-        String path="D:\\ArchivoIntelliJ\\jb_moviledic\\build\\reports\\cucumber\\";
+        String path="D:\\ArchivoIntelliJ\\TallerSesion4\\build\\reports\\cucumber\\";
         File reportHTMLFolder=new File(path+"cucumberReporting");
 
         List<String> jsonFiles=new ArrayList<>();

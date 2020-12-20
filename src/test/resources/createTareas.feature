@@ -1,6 +1,6 @@
-@WhenDo
-Feature:  When Do
 
+Feature:  When Do
+  @WhenDo
   Scenario Outline: crear tarea
 
     Given la aplicacion when do esta abierta
