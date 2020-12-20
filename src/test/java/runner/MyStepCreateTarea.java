@@ -20,8 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class MyStepCreateTarea {
     private Boolean enct=false;
     private List<String> nombresListadoTareas = new ArrayList<String>();
-    private String nameTarea;
-    private String descriptionTarea;
+
 
     @Given("la aplicacion when do esta abierta")
     public void laAplicacionWhenDoEstaAbierta() {
@@ -37,12 +36,10 @@ public class MyStepCreateTarea {
 
     @And("Ingresar a la caja de texto titulo de la tarea : {}")
     public void ingresarALaCajaDeTextoDelNombreDeLaTareaTitulo(String valor) {
-        nameTarea=valor;
-        Runner.driver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextTitle")).sendKeys(valor);
+         Runner.driver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextTitle")).sendKeys(valor);
     }
     @And("Ingresar a la caja de texto descripcion de la tarea : {}")
     public void ingresarALaCajaDeTextoDeDescripcionDeLaTareaTitulo(String valor) {
-        descriptionTarea=valor;
         Runner.driver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextNotes")).sendKeys(valor);
     }
     @And("Clic en [GuardarTarea]")
