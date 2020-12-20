@@ -11,16 +11,17 @@ import java.util.concurrent.TimeUnit;
 
 public class Android implements IDevice{
 
+
     @Override
     public AppiumDriver create() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("deviceName","JeanPierr");
-        capabilities.setCapability("platformVersion","10");
-        capabilities.setCapability("appPackage","com.example.android.contactmanager");
-        capabilities.setCapability("appActivity",".ContactManager");
-        capabilities.setCapability("platformName","android");
-        AppiumDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("deviceName", "Android SDK built for x86");
+        capabilities.setCapability("platformVersion", "10");
+        capabilities.setCapability("appPackage", "com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity", ".ui.HomeActivity");
+        AppiumDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
         // implicit wait  (tiempo para todos los controles)
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

@@ -14,11 +14,10 @@ public class AndroidCloud implements IDevice{
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-        caps.setCapability("browserstack.user", "jeanpierrchangso1");
-        caps.setCapability("browserstack.key", "pD1NSamGCoAWsPsuXw65");
+
 
         // Set URL of the application under test
-        caps.setCapability("app", "bs://8c9bdded5f2cc121440b79eca1ca8161cbee44b9");
+
 
         // Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 3");
